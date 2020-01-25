@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	utf8
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::utf8 - handy UTF-8 tests
 Summary(pl.UTF-8):	Test::utf8 - podręczne testy UTF-8
 Name:		perl-Test-utf8
