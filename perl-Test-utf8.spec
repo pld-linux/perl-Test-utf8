@@ -7,16 +7,17 @@
 Summary:	Test::utf8 - handy UTF-8 tests
 Summary(pl.UTF-8):	Test::utf8 - podręczne testy UTF-8
 Name:		perl-Test-utf8
-Version:	1.01
+Version:	1.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	58351d9e168399f6e55fb0982cdbe6a1
+# Source0-md5:	71d187539c76ac1ed9a0242ff208796d
 URL:		https://metacpan.org/release/Test-utf8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Builder-Tester >= 0.09
 %endif
