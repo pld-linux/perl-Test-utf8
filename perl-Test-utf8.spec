@@ -1,20 +1,20 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Test
 %define		pnam	utf8
 Summary:	Test::utf8 - handy UTF-8 tests
 Summary(pl.UTF-8):	Test::utf8 - podręczne testy UTF-8
 Name:		perl-Test-utf8
-Version:	1.02
+Version:	1.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	71d187539c76ac1ed9a0242ff208796d
-URL:		https://metacpan.org/release/Test-utf8
+Source0:	https://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	03e219b5a7d0645b313f557238c0f8b3
+URL:		https://metacpan.org/dist/Test-utf8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
